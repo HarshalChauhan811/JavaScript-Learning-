@@ -1,0 +1,89 @@
+// declare the variable
+// let num = 10;
+// console.log(num);
+
+// Primitive Data Type
+
+// Number, boolean, string, null, undefined, Symbol, bigint
+
+// number
+let account_balance = 30;
+console.log(account_balance);
+console.log(typeof account_balance);    // number 
+
+// string
+let str = "rohit negi is a bad boy, he doesn't know how to use zoom";
+console.log(str)      
+console.log(typeof str);          // string 
+let comment = 'Hello dosoton'
+console.log(comment)
+
+// Boolean
+// true or false
+let Papa_ko_block_kara_hai = false;
+console.log(Papa_ko_block_kara_hai);
+console.log(typeof Papa_ko_block_kara_hai);   // boolean
+
+// Undefined
+
+let account;
+console.log(account);
+console.log(typeof account);  // undefinrd    --> initailize kiya hai per abhi value nahi di hai aapne 
+
+// Null
+
+let bal = null;
+console.log(bal);
+console.log(typeof bal);    // null  --> jaanbujh ke kuch nahi daala isme value 
+// use case kya hai --> agar aapke accont me 4000 hai bank ka server low hai aapne check kiya balance 0 dikhaya to bhayi aap to bhadak jayege ki balance kaha gaya isliye wah uski jagah pe null ko show krta hai 
+
+// bigint
+
+let a = 4343147836124791823749832n;
+console.log(a);
+
+
+// Non Primitive data type
+// // Array, Object, function
+
+let n = 10;
+let n2 = 20;
+let n3 = 50;    // itne saare variable ki need nahi hai bnane ki                                                                                   add also this in last  
+// 100 value ke liye 100 value ko define kro 
+
+let arr = [10,20,50,"Harshal","Deepak"];   // ANY TYPE KE VALUE KO STORE KAR SKTE HAI ARRAY ME 
+console.log(typeof arr);   // object --> why kyuki array object me hi implement hao
+console.log(arr);
+
+// // Object   --> key:value pair me sote hota hai 
+
+// // let user_name = "Rohit";   // ek hi user ka info 
+// // let account_number: 31242314213;
+// // let balance: 420;
+
+
+// *******   better way hai store krne ka     -->// ek type ka data ek saath rahe 
+ 
+let obj = {
+   user_name: "harshal",
+   account_number: 31242314213,
+   balance: 420,
+   city:"mumbai"
+}      
+console.log(obj);
+console.log(typeof obj);
+
+// -->  array me bhi saari value ko store kar skte hai per aapko uske corressponding value ka pata nahi chalega 
+// example me --> hotel me gye waiter ko bola roti la ek baar , paani la , daal la , chawala la single single bolne se better hai --> object ki form me eksaath maga lena     time less , user interaction hoga isse 
+
+// function
+// fn ko fun me assign kar skte hai 
+
+let fun = function(){
+    console.log("Hello Coder army");
+    return 20;
+}
+fun();   // isko call kar skte hai 
+console.log(typeof fun);    // function 
+
+console.log(fun());    // hellow coder army print then return 20 
